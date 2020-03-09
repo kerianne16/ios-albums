@@ -13,6 +13,10 @@
 		5544D98F2416DBE4004EC0BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5544D98D2416DBE4004EC0BE /* Main.storyboard */; };
 		5544D9912416DBEF004EC0BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5544D9902416DBEF004EC0BE /* Assets.xcassets */; };
 		5544D9942416DBEF004EC0BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5544D9922416DBEF004EC0BE /* LaunchScreen.storyboard */; };
+		5544D99C2416DDFE004EC0BE /* AlbumsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5544D99B2416DDFE004EC0BE /* AlbumsTableViewController.swift */; };
+		5544D99E2416E0D4004EC0BE /* AlbumDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5544D99D2416E0D4004EC0BE /* AlbumDetailTableViewController.swift */; };
+		5544D9A02416E24F004EC0BE /* SongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5544D99F2416E24F004EC0BE /* SongTableViewCell.swift */; };
+		5544D9A22416E2FE004EC0BE /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5544D9A12416E2FE004EC0BE /* Album.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		5544D9902416DBEF004EC0BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5544D9932416DBEF004EC0BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5544D9952416DBEF004EC0BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5544D99B2416DDFE004EC0BE /* AlbumsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsTableViewController.swift; sourceTree = "<group>"; };
+		5544D99D2416E0D4004EC0BE /* AlbumDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailTableViewController.swift; sourceTree = "<group>"; };
+		5544D99F2416E24F004EC0BE /* SongTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTableViewCell.swift; sourceTree = "<group>"; };
+		5544D9A12416E2FE004EC0BE /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				5544D9892416DBE4004EC0BE /* SceneDelegate.swift */,
 				5544D98B2416DBE4004EC0BE /* ViewController.swift */,
 				5544D98D2416DBE4004EC0BE /* Main.storyboard */,
+				5544D9A12416E2FE004EC0BE /* Album.swift */,
+				5544D99D2416E0D4004EC0BE /* AlbumDetailTableViewController.swift */,
+				5544D99F2416E24F004EC0BE /* SongTableViewCell.swift */,
+				5544D99B2416DDFE004EC0BE /* AlbumsTableViewController.swift */,
 				5544D9902416DBEF004EC0BE /* Assets.xcassets */,
 				5544D9922416DBEF004EC0BE /* LaunchScreen.storyboard */,
 				5544D9952416DBEF004EC0BE /* Info.plist */,
@@ -138,8 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5544D9A02416E24F004EC0BE /* SongTableViewCell.swift in Sources */,
 				5544D98C2416DBE4004EC0BE /* ViewController.swift in Sources */,
+				5544D99C2416DDFE004EC0BE /* AlbumsTableViewController.swift in Sources */,
+				5544D99E2416E0D4004EC0BE /* AlbumDetailTableViewController.swift in Sources */,
 				5544D9882416DBE4004EC0BE /* AppDelegate.swift in Sources */,
+				5544D9A22416E2FE004EC0BE /* Album.swift in Sources */,
 				5544D98A2416DBE4004EC0BE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
