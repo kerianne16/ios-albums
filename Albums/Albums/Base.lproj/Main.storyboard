@@ -38,6 +38,9 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="ysN-Y1-sQu" kind="showDetail" identifier="DetailSegue" id="WEf-zF-4qn"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -97,7 +100,7 @@
                             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         </view>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="9ph-68-tmU" customClass="SongTableViewCell" customModule="Albums" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SongCell" rowHeight="145" id="9ph-68-tmU" customClass="SongTableViewCell" customModule="Albums" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="257" width="414" height="145"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9ph-68-tmU" id="PNr-U9-PcH">
@@ -127,6 +130,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
+                                    <outlet property="addButton" destination="BG6-cG-jrP" id="IXv-b5-fWs"/>
                                     <outlet property="durationTextField" destination="qwf-JX-ih5" id="03g-rK-BAB"/>
                                     <outlet property="songTitleTextField" destination="gEc-4q-6af" id="H6n-H2-UK3"/>
                                 </connections>
@@ -174,4 +178,7 @@
             <point key="canvasLocation" x="128.98550724637681" y="128.57142857142856"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="s3i-OZ-2Ya"/>
+    </inferredMetricsTieBreakers>
 </document>
